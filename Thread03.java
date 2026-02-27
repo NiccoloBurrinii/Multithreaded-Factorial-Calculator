@@ -26,17 +26,8 @@ public class Thread03 {
 
             int combinazione = T1.getVal() / (T2.getVal() * T3.getVal());
             System.out.println("C(n, k) = n! / ( k! * (n-k)! ): " + combinazione);
-
-
         } catch (InputMismatchException e) {
             System.out.println("ERRORE: input non valido");
-        }
-
-        
-    }
-        
-
-        
-
-        
+        }    
+    }        
 }
